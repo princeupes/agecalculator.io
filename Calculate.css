@@ -1,0 +1,122 @@
+body 
+{
+  margin:0px;
+  padding:0px;
+  background-color:#00ffff;
+  font-family:cursive,serif;
+}
+input {
+  display:block;
+  margin-bottom:10px;
+  border:none;
+  outline:none;
+  border-bottom:2px solid #1e90ff; 
+  background:none;
+}
+h1
+{
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing:5px;
+  font-size:40px;
+  animation-name:myAnimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
+div 
+{
+width: 200px;
+margin: 10px auto;
+
+}
+h3
+{
+  width:350px;
+  font-style:italic;
+  margin:0 auto;
+  border-bottom:1px solid #00f;
+  text-align:center;
+  padding:10px;
+
+}
+i 
+{
+  margin:0 auto;
+}
+fieldset
+{
+  width:300px;
+  margin:50px auto;
+  border: 2px solid rgb(0,50,200);
+  position: relative;
+  height: 300px;
+
+}
+@keyframes myAnimation
+{
+  0%
+  {
+    color:#ffff00;
+  }
+  25%
+  {
+    color:#7fff00;
+  }
+  50% 
+  {
+    color:#ffd700;
+  }
+  75% 
+  {
+    color:#7cfc00;
+  }
+  100% 
+  {
+    color:#20b2aa;
+  }
+}
+#send
+{
+  border: 2px outset rgb(10,100,255);
+  margin: 50px auto;
+  padding: 10px;
+  width: 200px;
+
+}
+#send:hover
+{
+  background:rgb(10,50,255);;
+  color: white;
+  
+}
+#showY , #showD , #showM
+{
+  font-style: italic;
+  font-size: 20px;
+  color:#080;
+}
+textarea
+{
+  color: #F00;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size:18px;
+  background:none;
+  outline: none;
+  border-radius: 50%;
+  border:2px #DDD solid;
+  resize: none;
+  padding-top:15px;
+
+}
+.container
+{
+
+}
+.showInfo ,p
+{
+  width: 200px;
+  display: inline-block;
+  margin: 0 auto;
+}
