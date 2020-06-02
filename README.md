@@ -1,2 +1,2 @@
-# http://princeupes.agecalculator.io
+# http://princeupes.github.io
 AGE CALCULATOR
